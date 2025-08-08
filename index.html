@@ -10,7 +10,17 @@
             font-family: 'fonteandroid';
             src: url(fontes/idroid.otf);
         }
+        @media screen and ( max-width: 768px) {
+            body{
+                width: 100%;
+                flex-direction: column;
+            }
+
+        }
+            
+        
         body{
+           
             margin: 0;
             background-color: #84E1AD;
             font-family: Arial, Helvetica, sans-serif;
@@ -39,8 +49,8 @@
         }
 
         nav{
-            max-width:500px
-            box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425);
+            
+            box-shadow:0px 7px 9px rgba(0, 0, 0, 0.425);
         }
 
         nav > a{
