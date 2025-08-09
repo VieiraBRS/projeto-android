@@ -144,19 +144,11 @@
             padding-top: 15px;
             text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
         }
-        #esquerda{
-            display: inline-flex;
-            align-items: flex-start;
-            flex-direction: column;
-            max-width: 500px;
-        }
-        #direita{
-            display: inline-flex;
-            flex-direction: column;
-            margin-left: 150px;
-            max-width: 500px;
+        #lista{
+            columns: 2;
 
         }
+            
         aside{
             text-indent: 20px;
             padding: 10px;
@@ -173,12 +165,8 @@
         
         #esquerda{
             list-style-type: '\2714';
+       
         }
-
-        #direita{
-            list-style-type: '\2714';
-        }
-        
     </style>
 </head>
 <body>
@@ -229,7 +217,7 @@
                 <h1>Quer aprender mais?</h1>
                 <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
 
-                <ul id="esquerda">
+                <ul id="lista">
                     <li>1.5 - Cupcake</li>
                     <li>1.6 - Donut</li>
                     <li>3.0 - Eclair</li>
@@ -237,9 +225,6 @@
                     <li>2.3 - Gingerbread</li>
                     <li>3.0 - Honeycomb</li>
                     <li>4.0 - Ice Cream Sandwich</li>
-                </ul>
-
-                <ul id="direita">
                     <li>4.1 -Jelly Bean</li>
                     <li>4.4 - Kitkat</li>
                     <li>5.0 - Lolipop</li>
